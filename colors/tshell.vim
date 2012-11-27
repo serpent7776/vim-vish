@@ -27,7 +27,7 @@ if has('gui_running')
     hi StatusLineNC   gui=NONE   guifg=#999999   guibg=#333333
     hi VertSplit      gui=NONE   guifg=#e1e1e1   guibg=#333333
 
-    hi WildMenu       gui=BOLD   guifg=#cf7dff   guibg=#1F0F29
+    hi WildMenu       gui=BOLD   guifg=#000000   guibg=#ddaa66
 
     hi DiffText       gui=NONE   guifg=#000000  guibg=#4cd169
     hi DiffChange     gui=NONE   guifg=NONE     guibg=#541691
@@ -41,7 +41,7 @@ if has('gui_running')
 
     hi Directory      gui=NONE   guifg=#8bff95   guibg=NONE
     hi LineNr         gui=NONE   guifg=#bbbbbb   guibg=#191919
-    hi NonText        gui=NONE   guifg=bg        guibg=NONE
+    hi NonText        gui=NONE   guifg=#bbbbbb   guibg=NONE
 	hi SpecialKey     gui=NONE   guifg=#ddaa66   guibg=NONE
     hi Title          gui=NONE   guifg=#E1462D   guibg=NONE
     hi Visual         gui=NONE   guifg=NONE      guibg=#404040	
@@ -65,13 +65,13 @@ if has('gui_running')
 
     hi VisualNOS      gui=NONE   guifg=#e1e1e1   guibg=#000000
 
-    hi CursorLine     gui=NONE   guifg=NONE      guibg=#222222
-    hi CursorColumn   gui=NONE   guifg=NONE      guibg=#222222
+    hi CursorLine     gui=NONE   guifg=NONE      guibg=#333333
+    hi CursorColumn   gui=NONE   guifg=NONE      guibg=#333333
 
     hi lispList       gui=NONE   guifg=#555555
 
     if v:version >= 700
-      hi Pmenu        gui=NONE   guifg=#e1e1e1   guibg=#000000
+      hi Pmenu        gui=NONE   guifg=#e1e1e1   guibg=#333333
       hi PMenuSel     gui=BOLD   guifg=#000000   guibg=#ddaa66
       hi PmenuSbar    gui=NONE   guifg=#e1e1e1   guibg=#000000
       hi PmenuThumb   gui=NONE   guifg=#e1e1e1   guibg=#333333
