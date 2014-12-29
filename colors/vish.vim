@@ -41,7 +41,7 @@ if has('gui_running')
     hi FoldColumn     gui=NONE   guifg=#e1e1e1   guibg=#191919
 
     hi Directory      gui=NONE   guifg=#8bff95   guibg=NONE
-    hi LineNr         gui=NONE   guifg=#bbbbbb   guibg=#191919
+    hi LineNr         gui=NONE   guifg=#bbbbbb   guibg=#000000
     hi NonText        gui=NONE   guifg=#bbbbbb   guibg=NONE
 	hi SpecialKey     gui=NONE   guifg=#ddaa66   guibg=NONE
     hi Title          gui=NONE   guifg=#E1462D   guibg=NONE
@@ -84,6 +84,9 @@ if has('gui_running')
 
       hi MatchParen   gui=NONE      guifg=#ffffff   guibg=#005500
     endif
+
+    " git-gutter:
+    hi SignColumn     gui=NONE   guifg=#bbbbbb   guibg=#333333
 else
 "use the same color of evening in term
 	hi Normal  term=standout ctermbg=Black ctermfg=White guibg=Red guifg=White       
@@ -123,7 +126,6 @@ else
 		hi Statement term=bold cterm=bold ctermfg=Yellow guifg=#ffff60 gui=bold
 	endif
 	hi Ignore ctermfg=DarkGrey guifg=grey20
-
 endif
 
 
