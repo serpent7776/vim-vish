@@ -1,7 +1,8 @@
 " Vim color file
-" Name:    tshell.vim
-" Author:  Tian Changsong tian1988320@126.com
-" Version: 0.1
+" Name:    vish.vim
+" Author:  Serpent7776
+" Version: 0.10
+" based on tshell.vim
 " Main color in Gvim:DarkGolden(#ddaa66),you can change it to your favourite color.
 "
 set background=dark
@@ -9,7 +10,7 @@ hi clear
 if exists("syntax_on")
    syntax reset
 endif
-let g:colors_name="tshell"
+let g:colors_name="vish"
 if has('gui_running')
     hi Normal         gui=NONE   guifg=#e1e1e1   guibg=#191919
 
