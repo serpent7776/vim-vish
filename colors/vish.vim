@@ -4,92 +4,92 @@
 " Version: 0.10
 " based on tshell.vim
 " Main color in Gvim:DarkGolden(#ddaa66),you can change it to your favourite color.
-"
+
 set background=dark
 hi clear
 if exists("syntax_on")
-   syntax reset
+	syntax reset
 endif
 let g:colors_name="vish"
 if has('gui_running')
-    hi Normal         gui=NONE   guifg=#e1e1e1   guibg=#191919
+	hi Normal         gui=NONE   guifg=#e1e1e1   guibg=#191919
 
-    hi IncSearch      gui=NONE   guifg=#000000   guibg=#ddaa66
-    hi Search         gui=NONE   guifg=#000000   guibg=#ddaa66
-    hi ErrorMsg       gui=NONE   guifg=#000000   guibg=#ddaa66
-    hi WarningMsg     gui=NONE   guifg=#000000   guibg=#ddaa66
-    hi ModeMsg        gui=NONE   guifg=#e1e1e1   guibg=NONE
-    hi MoreMsg        gui=NONE   guifg=#e1e1e1   guibg=NONE
-    hi Question       gui=NONE   guifg=#e1e1e1   guibg=NONE
+	hi IncSearch      gui=NONE   guifg=#000000   guibg=#ddaa66
+	hi Search         gui=NONE   guifg=#000000   guibg=#ddaa66
+	hi ErrorMsg       gui=NONE   guifg=#000000   guibg=#ddaa66
+	hi WarningMsg     gui=NONE   guifg=#000000   guibg=#ddaa66
+	hi ModeMsg        gui=NONE   guifg=#e1e1e1   guibg=NONE
+	hi MoreMsg        gui=NONE   guifg=#e1e1e1   guibg=NONE
+	hi Question       gui=NONE   guifg=#e1e1e1   guibg=NONE
 
-    hi StatusLine     gui=BOLD   guifg=#e1e1e1   guibg=#333333
-    hi User1          gui=BOLD   guifg=#999999   guibg=#333333
-    hi User2          gui=BOLD   guifg=#FFFF60   guibg=#333333
-    hi StatusLineNC   gui=NONE   guifg=#999999   guibg=#333333
-    hi VertSplit      gui=NONE   guifg=#e1e1e1   guibg=#333333
+	hi StatusLine     gui=BOLD   guifg=#e1e1e1   guibg=#333333
+	hi User1          gui=BOLD   guifg=#999999   guibg=#333333
+	hi User2          gui=BOLD   guifg=#FFFF60   guibg=#333333
+	hi StatusLineNC   gui=NONE   guifg=#999999   guibg=#333333
+	hi VertSplit      gui=NONE   guifg=#e1e1e1   guibg=#333333
 
-    hi WildMenu       gui=BOLD   guifg=#000000   guibg=#ddaa66
+	hi WildMenu       gui=BOLD   guifg=#000000   guibg=#ddaa66
 
-    hi DiffText       gui=NONE   guifg=#000000  guibg=#4cd169
-    hi DiffChange     gui=NONE   guifg=NONE     guibg=#541691
-    hi DiffDelete     gui=NONE   guifg=#e1e1e1  guibg=#ddaa66
-    hi DiffAdd        gui=NONE   guifg=#e1e1e1  guibg=#306d30
+	hi DiffText       gui=NONE   guifg=#000000  guibg=#4cd169
+	hi DiffChange     gui=NONE   guifg=NONE     guibg=#541691
+	hi DiffDelete     gui=NONE   guifg=#e1e1e1  guibg=#ddaa66
+	hi DiffAdd        gui=NONE   guifg=#e1e1e1  guibg=#306d30
 
-    hi Cursor         gui=NONE   guifg=#000000   guibg=#827d7d
+	hi Cursor         gui=NONE   guifg=#000000   guibg=#827d7d
 
 	hi Folded         gui=NONE   guifg=#ddaa66   guibg=#000000
-    hi FoldColumn     gui=NONE   guifg=#e1e1e1   guibg=#191919
+	hi FoldColumn     gui=NONE   guifg=#e1e1e1   guibg=#191919
 
-    hi Directory      gui=NONE   guifg=#8bff95   guibg=NONE
-    hi LineNr         gui=NONE   guifg=#bbbbbb   guibg=#000000
-    hi NonText        gui=NONE   guifg=#bbbbbb   guibg=NONE
+	hi Directory      gui=NONE   guifg=#8bff95   guibg=NONE
+	hi LineNr         gui=NONE   guifg=#bbbbbb   guibg=#000000
+	hi NonText        gui=NONE   guifg=#bbbbbb   guibg=NONE
 	hi SpecialKey     gui=NONE   guifg=#ddaa66   guibg=NONE
-    hi Title          gui=NONE   guifg=#E1462D   guibg=NONE
-    hi Visual         gui=NONE   guifg=NONE      guibg=#404040	
+	hi Title          gui=NONE   guifg=#E1462D   guibg=NONE
+	hi Visual         gui=NONE   guifg=NONE      guibg=#404040
 
-    hi Comment        gui=NONE   guifg=#666666   guibg=NONE
-    hi Constant       gui=NONE   guifg=#FA9D9D   guibg=NONE
-    hi Boolean        gui=NONE   guifg=#00ff00   guibg=NONE
-    hi String         gui=NONE   guifg=#F050C8   guibg=NONE
-    hi Error          gui=NONE   guifg=#990000   guibg=#000000
-    hi Identifier     gui=NONE   guifg=#4cbbd1   guibg=NONE
-    hi Ignore         gui=NONE   guifg=#555555
-    hi Number         gui=NONE   guifg=#ddaa66   guibg=NONE
-    hi PreProc        gui=NONE   guifg=#E1462D   guibg=NONE
+	hi Comment        gui=NONE   guifg=#666666   guibg=NONE
+	hi Constant       gui=NONE   guifg=#FA9D9D   guibg=NONE
+	hi Boolean        gui=NONE   guifg=#00ff00   guibg=NONE
+	hi String         gui=NONE   guifg=#F050C8   guibg=NONE
+	hi Error          gui=NONE   guifg=#990000   guibg=#000000
+	hi Identifier     gui=NONE   guifg=#4cbbd1   guibg=NONE
+	hi Ignore         gui=NONE   guifg=#555555
+	hi Number         gui=NONE   guifg=#ddaa66   guibg=NONE
+	hi PreProc        gui=NONE   guifg=#E1462D   guibg=NONE
 
-    hi Special        gui=NONE   guifg=#ffcd8b   guibg=NONE
+	hi Special        gui=NONE   guifg=#ffcd8b   guibg=NONE
 
-    hi Statement      gui=bold   guifg=#FFFF60   guibg=NONE
-    hi Todo           gui=NONE   guifg=#e1e1e1   guibg=#863132
-    hi Type           gui=NONE   guifg=#c476f1   guibg=NONE
-    hi Underlined     gui=UNDERLINE   guifg=#e1e1e1   guibg=NONE
+	hi Statement      gui=bold   guifg=#FFFF60   guibg=NONE
+	hi Todo           gui=NONE   guifg=#e1e1e1   guibg=#863132
+	hi Type           gui=NONE   guifg=#c476f1   guibg=NONE
+	hi Underlined     gui=UNDERLINE   guifg=#e1e1e1   guibg=NONE
 
-    hi VisualNOS      gui=NONE   guifg=#e1e1e1   guibg=#000000
+	hi VisualNOS      gui=NONE   guifg=#e1e1e1   guibg=#000000
 
-    hi CursorLine     gui=NONE   guifg=NONE      guibg=#333333
-    hi CursorColumn   gui=NONE   guifg=NONE      guibg=#333333
+	hi CursorLine     gui=NONE   guifg=NONE      guibg=#333333
+	hi CursorColumn   gui=NONE   guifg=NONE      guibg=#333333
 
-    hi lispList       gui=NONE   guifg=#555555
+	hi lispList       gui=NONE   guifg=#555555
 
-    if v:version >= 700
-      hi Pmenu        gui=NONE   guifg=#e1e1e1   guibg=#333333
-      hi PMenuSel     gui=BOLD   guifg=#000000   guibg=#ddaa66
-      hi PmenuSbar    gui=NONE   guifg=#e1e1e1   guibg=#000000
-      hi PmenuThumb   gui=NONE   guifg=#e1e1e1   guibg=#333333
+	if v:version >= 700
+		hi Pmenu        gui=NONE   guifg=#e1e1e1   guibg=#333333
+		hi PMenuSel     gui=BOLD   guifg=#000000   guibg=#ddaa66
+		hi PmenuSbar    gui=NONE   guifg=#e1e1e1   guibg=#000000
+		hi PmenuThumb   gui=NONE   guifg=#e1e1e1   guibg=#333333
 
-      hi SpellBad     gui=undercurl guisp=#cc6666
-      hi SpellRare    gui=undercurl guisp=#cc66cc
-      hi SpellLocal   gui=undercurl guisp=#cccc66
-      hi SpellCap     gui=undercurl guisp=#66cccc
+		hi SpellBad     gui=undercurl guisp=#cc6666
+		hi SpellRare    gui=undercurl guisp=#cc66cc
+		hi SpellLocal   gui=undercurl guisp=#cccc66
+		hi SpellCap     gui=undercurl guisp=#66cccc
 
-      hi MatchParen   gui=NONE      guifg=#ffffff   guibg=#005500
-    endif
+		hi MatchParen   gui=NONE      guifg=#ffffff   guibg=#005500
+	endif
 
-    " git-gutter:
-    hi SignColumn     gui=NONE   guifg=#bbbbbb   guibg=#333333
+	" git-gutter:
+	hi SignColumn     gui=NONE   guifg=#bbbbbb   guibg=#333333
 else
 "use the same color of evening in term
-	hi Normal  term=standout ctermbg=Black ctermfg=White guibg=Red guifg=White       
+	hi Normal  term=standout ctermbg=Black ctermfg=White guibg=Red guifg=White
 	hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White guibg=Red guifg=White
 	hi IncSearch term=reverse cterm=reverse gui=reverse
 	hi ModeMsg term=bold cterm=bold gui=bold
@@ -127,5 +127,3 @@ else
 	endif
 	hi Ignore ctermfg=DarkGrey guifg=grey20
 endif
-
-
