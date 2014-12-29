@@ -1,3 +1,4 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=4302
+vish is colorscheme for vim.
 
-I just modified the Gentooish color scheme and used the evening color for term,the main colors are dark-golden and dark-gray,you can change them to your favorite colors.
+This is customized version of tshell colorscheme
+https://github.com/vim-scripts/tshell
