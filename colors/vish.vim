@@ -87,6 +87,14 @@ if has('gui_running')
 
 	" git-gutter:
 	hi SignColumn     gui=NONE   guifg=#bbbbbb   guibg=#333333
+
+	" logcat:
+	hi LogF_color ctermfg=black guifg=#000000 ctermbg=red guibg=#ff0000
+	hi LogE_color ctermfg=red guifg=#ff0000
+	hi LogW_color ctermfg=brown guifg=#ff8800
+	hi LogI_color ctermfg=grey guifg=#aaaaaa
+	hi LogD_color ctermfg=darkcyan guifg=#00aaaa
+	hi LogV_color ctermfg=gray guifg=#777777
 else
 "use the same color of evening in term
 	hi Normal  term=standout ctermbg=Black ctermfg=White guibg=Red guifg=White
@@ -107,7 +115,7 @@ else
 	hi NonText term=bold ctermfg=LightBlue gui=bold guifg=LightBlue guibg=grey30
 	hi Question term=standout ctermfg=LightGreen gui=bold guifg=Green
 	hi Search term=reverse ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
-	hi SpecialKey term=bold ctermfg=LightBlue guifg=Cyan
+	hi SpecialKey term=bold ctermfg=darkgrey guifg=grey
 	hi Title term=bold ctermfg=LightMagenta gui=bold guifg=Magenta
 	hi WarningMsg term=standout ctermfg=LightRed guifg=Red
 	hi WildMenu term=standout ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
