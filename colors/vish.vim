@@ -89,7 +89,7 @@ if has('gui_running')
 	hi SignColumn     gui=NONE   guifg=#bbbbbb   guibg=#333333
 
 	" logcat:
-	hi LogF_color ctermfg=black guifg=#000000 ctermbg=red guibg=#ff0000
+	hi LogF_color ctermfg=black guifg=#FFFFFF ctermbg=red guibg=#CC0000
 	hi LogE_color ctermfg=red guifg=#ff0000
 	hi LogW_color ctermfg=brown guifg=#ff8800
 	hi LogI_color ctermfg=grey guifg=#aaaaaa
