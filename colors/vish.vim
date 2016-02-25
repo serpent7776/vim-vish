@@ -47,7 +47,7 @@ if has('gui_running')
 	hi Title          gui=NONE   guifg=#E1462D   guibg=NONE
 	hi Visual         gui=NONE   guifg=NONE      guibg=#404040
 
-	hi Comment        gui=NONE   guifg=#666666   guibg=NONE
+	hi Comment        gui=NONE   guifg=#777777   guibg=NONE
 	hi Constant       gui=NONE   guifg=#FA9D9D   guibg=NONE
 	hi Boolean        gui=NONE   guifg=#00ff00   guibg=NONE
 	hi String         gui=NONE   guifg=#F050C8   guibg=NONE
