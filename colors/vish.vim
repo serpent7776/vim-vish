@@ -103,6 +103,9 @@ else
 	hi ModeMsg term=bold cterm=bold gui=bold
 	hi StatusLine term=reverse,bold cterm=reverse,bold gui=reverse,bold
 	hi StatusLineNC term=reverse cterm=reverse gui=reverse
+	hi TabLine term=reverse cterm=bold,underline ctermfg=grey ctermbg=black gui=bold guifg=blue guibg=white
+	hi TabLineSel term=bold,reverse ctermfg=white ctermbg=blue guifg=white guibg=blue
+	hi TabLineFill term=bold,reverse cterm=bold,underline ctermfg=lightblue ctermbg=black gui=bold guifg=blue guibg=white
 	hi VertSplit term=reverse cterm=reverse gui=reverse
 	hi Visual term=reverse ctermbg=black guibg=grey60
 	hi VisualNOS term=underline,bold cterm=underline,bold gui=underline,bold
