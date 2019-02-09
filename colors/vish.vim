@@ -42,6 +42,7 @@ if has('gui_running')
 
 	hi Directory      gui=NONE   guifg=#8bff95   guibg=NONE
 	hi LineNr         gui=NONE   guifg=#bbbbbb   guibg=#000000
+	hi CursorLineNr   gui=NONE   guifg=#ffff00   guifg=#000000
 	hi NonText        gui=NONE   guifg=#bbbbbb   guibg=NONE
 	hi SpecialKey     gui=NONE   guifg=#7f7f7f   guibg=NONE
 	hi Title          gui=NONE   guifg=#E1462D   guibg=NONE
@@ -113,7 +114,8 @@ else
 	hi Cursor guibg=Green guifg=Black
 	hi lCursor guibg=Cyan guifg=Black
 	hi Directory term=bold ctermfg=LightCyan guifg=Cyan
-	hi LineNr term=underline ctermfg=grey guifg=Yellow
+	hi LineNr ctermfg=grey guifg=grey
+	hi CursorLineNr term=underline ctermfg=yellow guifg=Yellow
 	hi MoreMsg term=bold ctermfg=LightGreen gui=bold guifg=SeaGreen
 	hi NonText term=bold ctermfg=LightBlue gui=bold guifg=LightBlue guibg=grey30
 	hi Question term=standout ctermfg=LightGreen gui=bold guifg=Green
