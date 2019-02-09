@@ -98,17 +98,17 @@ if has('gui_running')
 	hi LogV_color ctermfg=gray guifg=#777777
 else
 "use the same color of evening in term
-	hi Normal  term=standout ctermbg=Black ctermfg=White guibg=Red guifg=White
+	hi Normal  term=standout ctermfg=grey guifg=grey75
 	hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White guibg=Red guifg=White
-	hi IncSearch term=reverse cterm=reverse gui=reverse
+	hi IncSearch term=reverse cterm=reverse guifg=black guibg=orange
 	hi ModeMsg term=bold cterm=bold gui=bold
 	hi StatusLine term=reverse,bold cterm=reverse,bold gui=reverse,bold
 	hi StatusLineNC term=reverse cterm=reverse gui=reverse
-	hi TabLine term=reverse cterm=bold,underline ctermfg=grey ctermbg=black gui=bold guifg=blue guibg=white
-	hi TabLineSel term=bold,reverse ctermfg=white ctermbg=blue guifg=white guibg=blue
-	hi TabLineFill term=bold,reverse cterm=bold,underline ctermfg=lightblue ctermbg=black gui=bold guifg=blue guibg=white
+	hi TabLine term=reverse cterm=bold,underline ctermfg=grey ctermbg=black gui=bold,underline guifg=grey60 guibg=black
+	hi TabLineSel term=bold,reverse cterm=bold ctermfg=white ctermbg=blue gui=bold guifg=white guibg=Blue
+	hi TabLineFill term=bold,reverse cterm=bold,underline ctermfg=grey ctermbg=black gui=bold,underline guifg=grey60 guibg=black
 	hi VertSplit term=reverse cterm=reverse gui=reverse
-	hi Visual term=reverse ctermbg=black guibg=grey60
+	hi Visual term=reverse ctermbg=black guibg=grey20
 	hi VisualNOS term=underline,bold cterm=underline,bold gui=underline,bold
 	hi DiffText term=reverse cterm=bold ctermbg=Red gui=bold guibg=Red
 	hi Cursor guibg=Green guifg=Black
@@ -117,7 +117,7 @@ else
 	hi LineNr ctermfg=grey guifg=grey
 	hi CursorLineNr term=underline ctermfg=yellow guifg=Yellow
 	hi MoreMsg term=bold ctermfg=LightGreen gui=bold guifg=SeaGreen
-	hi NonText term=bold ctermfg=LightBlue gui=bold guifg=LightBlue guibg=grey30
+	hi NonText term=bold ctermfg=LightBlue gui=bold guifg=LightBlue
 	hi Question term=standout ctermfg=LightGreen gui=bold guifg=Green
 	hi Search term=reverse ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
 	hi SpecialKey term=bold ctermfg=darkgrey guifg=grey
@@ -130,10 +130,18 @@ else
 	hi DiffChange term=bold ctermbg=DarkMagenta guibg=DarkMagenta
 	hi DiffDelete term=bold ctermfg=Blue ctermbg=DarkCyan gui=bold guifg=Blue guibg=DarkCyan
 	hi CursorColumn term=reverse ctermbg=Black guibg=grey40
-	hi CursorLine term=underline cterm=underline guibg=grey40
+	hi CursorLine term=underline cterm=underline guibg=grey10
+	hi ColorColumn ctermbg=blue guibg=DarkBlue
+	hi MatchParen ctermbg=blue guibg=DarkBlue
+
+	hi Pmenu        cterm=none   guifg=grey80  guibg=grey20
+	hi PMenuSel     cterm=bold   guifg=black   guibg=orange
+	hi PmenuSbar    cterm=none   guifg=grey80  guibg=black
+	hi PmenuThumb   cterm=none   guifg=grey80  guibg=grey30
 
 	" Groups for syntax highlighting
-	hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0 guibg=grey5
+	hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0
+	hi String   ctermfg=Magenta guifg=Magenta
 	hi Special term=bold ctermfg=LightRed guifg=Orange guibg=grey5
 	if &t_Co > 8
 		hi Statement term=bold cterm=bold ctermfg=Yellow guifg=#ffff60 gui=bold
