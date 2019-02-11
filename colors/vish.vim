@@ -42,7 +42,7 @@ if has('gui_running')
 
 	hi Directory      gui=NONE   guifg=#8bff95   guibg=NONE
 	hi LineNr         gui=NONE   guifg=#bbbbbb   guibg=#000000
-	hi CursorLineNr   gui=NONE   guifg=#ffff00   guifg=#000000
+	hi CursorLineNr   gui=NONE   guifg=#ffff00   guibg=#000000
 	hi NonText        gui=NONE   guifg=#bbbbbb   guibg=NONE
 	hi SpecialKey     gui=NONE   guifg=#7f7f7f   guibg=NONE
 	hi Title          gui=NONE   guifg=#E1462D   guibg=NONE
