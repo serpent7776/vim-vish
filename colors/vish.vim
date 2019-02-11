@@ -1,7 +1,7 @@
 " Vim color file
 " Name:    vish.vim
 " Author:  Serpent7776
-" Version: 0.6
+" Version: 0.6.1
 " based on tshell.vim
 " Main color in Gvim:DarkGolden(#ddaa66),you can change it to your favourite color.
 
