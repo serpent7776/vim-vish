@@ -30,10 +30,10 @@ if has('gui_running')
 
 	hi WildMenu       gui=BOLD   guifg=#000000   guibg=#ddaa66
 
-	hi DiffText       gui=NONE   guifg=#000000  guibg=#4cd169
-	hi DiffChange     gui=NONE   guifg=NONE     guibg=#541691
-	hi DiffDelete     gui=NONE   guifg=#e1e1e1  guibg=#ddaa66
-	hi DiffAdd        gui=NONE   guifg=#e1e1e1  guibg=#306d30
+	hi DiffText       gui=REVERSE   guifg=NONE   guibg=#20592d
+	hi DiffChange     gui=NONE   guifg=NONE      guibg=#3b0f66
+	hi DiffDelete     gui=NONE   guifg=#e1e1e1   guibg=#802b00
+	hi DiffAdd        gui=NONE   guifg=#e1e1e1   guibg=#306d30
 
 	hi Cursor         gui=NONE   guifg=#000000   guibg=#827d7d
 
