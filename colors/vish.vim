@@ -41,7 +41,7 @@ if has('gui_running')
 	hi FoldColumn     gui=NONE   guifg=#e1e1e1   guibg=#191919
 
 	hi Directory      gui=NONE   guifg=#8bff95   guibg=NONE
-	hi LineNr         gui=NONE   guifg=#bbbbbb   guibg=#000000
+	hi LineNr         gui=NONE   guifg=#666666   guibg=#000000
 	hi CursorLineNr   gui=NONE   guifg=#ffff00   guibg=#000000
 	hi NonText        gui=NONE   guifg=#bbbbbb   guibg=NONE
 	hi SpecialKey     gui=NONE   guifg=#7f7f7f   guibg=NONE
@@ -114,7 +114,7 @@ else
 	hi Cursor guibg=Green guifg=Black
 	hi lCursor guibg=Cyan guifg=Black
 	hi Directory term=bold ctermfg=LightCyan guifg=Cyan
-	hi LineNr ctermfg=grey guifg=grey
+	hi LineNr ctermfg=darkgrey guifg=grey
 	hi CursorLineNr term=underline ctermfg=yellow guifg=Yellow
 	hi MoreMsg term=bold ctermfg=LightGreen gui=bold guifg=SeaGreen
 	hi NonText term=bold ctermfg=LightBlue gui=bold guifg=LightBlue
