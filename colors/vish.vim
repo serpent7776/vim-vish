@@ -74,9 +74,9 @@ if has('gui_running')
 
 	if v:version >= 700
 		hi Pmenu        gui=NONE   guifg=#e1e1e1   guibg=#333333
-		hi PMenuSel     gui=BOLD   guifg=#000000   guibg=#ddaa66
-		hi PmenuSbar    gui=NONE   guifg=#e1e1e1   guibg=#000000
-		hi PmenuThumb   gui=NONE   guifg=#e1e1e1   guibg=#333333
+		hi PMenuSel     gui=BOLD   guifg=#000000   guibg=#aa66ff
+		hi PmenuSbar    gui=NONE   guifg=#e1e1e1   guibg=#666666
+		hi PmenuThumb   gui=NONE   guifg=#e1e1e1   guibg=#cc33ff
 
 		hi SpellBad     gui=undercurl guisp=#cc6666
 		hi SpellRare    gui=undercurl guisp=#cc66cc
@@ -134,10 +134,10 @@ else
 	hi ColorColumn ctermbg=blue guibg=DarkBlue
 	hi MatchParen ctermbg=blue guibg=DarkBlue
 
-	hi Pmenu        cterm=none   guifg=grey80  guibg=grey20
-	hi PMenuSel     cterm=bold   guifg=black   guibg=orange
-	hi PmenuSbar    cterm=none   guifg=grey80  guibg=black
-	hi PmenuThumb   cterm=none   guifg=grey80  guibg=grey30
+	hi Pmenu cterm=none ctermfg=Grey ctermbg=DarkGrey  guifg=grey70  guibg=grey10
+	hi PMenuSel cterm=bold ctermfg=LightMagenta ctermbg=DarkMagenta  guifg=black   guibg=Violet
+	hi PmenuSbar cterm=none ctermbg=Grey  guibg=grey
+	hi PmenuThumb cterm=none ctermbg=LightMagenta  guibg=DarkViolet
 
 	" Groups for syntax highlighting
 	hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0
