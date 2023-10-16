@@ -129,7 +129,7 @@ else
 	hi DiffAdd term=bold ctermbg=DarkBlue guibg=DarkBlue
 	hi DiffChange term=bold ctermbg=DarkMagenta guibg=DarkMagenta
 	hi DiffDelete term=bold ctermfg=Blue ctermbg=DarkCyan gui=bold guifg=Blue guibg=DarkCyan
-	hi CursorColumn term=reverse ctermbg=Black guibg=grey40
+	hi CursorColumn ctermbg=DarkBlue
 	hi CursorLine term=underline cterm=underline guibg=grey10
 	hi ColorColumn ctermbg=blue guibg=DarkBlue
 	hi MatchParen ctermbg=blue guibg=DarkBlue
