@@ -86,6 +86,11 @@ if has('gui_running')
 		hi MatchParen   gui=NONE      guifg=#ffffff   guibg=#005500
 	endif
 
+	" ft=diff
+	hi diffAdded gui=bold guifg=Green
+	hi diffRemoved gui=bold guifg=Red
+	hi diffFile guifg=Cyan
+
 	" git-gutter:
 	hi SignColumn     gui=NONE   guifg=#bbbbbb   guibg=#333333
 
@@ -138,6 +143,11 @@ else
 	hi PMenuSel cterm=bold ctermfg=LightMagenta ctermbg=DarkMagenta  guifg=black   guibg=Violet
 	hi PmenuSbar cterm=none ctermbg=Grey  guibg=grey
 	hi PmenuThumb cterm=none ctermbg=LightMagenta  guibg=DarkViolet
+
+	" ft=diff
+	hi diffAdded cterm=bold ctermfg=Green
+	hi diffRemoved cterm=bold ctermfg=Red
+	hi diffFile ctermfg=Cyan
 
 	" Groups for syntax highlighting
 	hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0
