@@ -115,7 +115,6 @@ else
 	hi VertSplit term=reverse cterm=reverse gui=reverse
 	hi Visual term=reverse ctermbg=black guibg=grey20
 	hi VisualNOS term=underline,bold cterm=underline,bold gui=underline,bold
-	hi DiffText term=reverse cterm=bold ctermbg=Red gui=bold guibg=Red
 	hi Cursor guibg=Green guifg=Black
 	hi lCursor guibg=Cyan guifg=Black
 	hi Directory term=bold ctermfg=LightCyan guifg=Cyan
@@ -131,9 +130,10 @@ else
 	hi WildMenu term=standout ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
 	hi Folded term=standout ctermbg=LightGrey ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue
 	hi FoldColumn term=standout ctermbg=LightGrey ctermfg=DarkBlue guibg=Grey guifg=DarkBlue
-	hi DiffAdd term=bold ctermbg=DarkBlue guibg=DarkBlue
+	hi DiffText term=reverse cterm=bold ctermbg=Red gui=bold guibg=Red
 	hi DiffChange term=bold ctermbg=DarkMagenta guibg=DarkMagenta
 	hi DiffDelete term=bold ctermfg=Blue ctermbg=DarkCyan gui=bold guifg=Blue guibg=DarkCyan
+	hi DiffAdd term=bold ctermbg=DarkGreen guibg=DarkGreen
 	hi CursorColumn ctermbg=DarkBlue
 	hi CursorLine term=underline cterm=underline guibg=grey10
 	hi ColorColumn ctermbg=blue guibg=DarkBlue
