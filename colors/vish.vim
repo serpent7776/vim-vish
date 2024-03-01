@@ -113,7 +113,7 @@ else
 	hi TabLineSel term=bold,reverse cterm=bold ctermfg=white ctermbg=blue gui=bold guifg=white guibg=Blue
 	hi TabLineFill term=bold,reverse cterm=bold,underline ctermfg=grey ctermbg=black gui=bold,underline guifg=grey60 guibg=black
 	hi VertSplit term=reverse cterm=reverse gui=reverse
-	hi Visual term=reverse ctermbg=black guibg=grey20
+	hi Visual term=reverse
 	hi VisualNOS term=underline,bold cterm=underline,bold gui=underline,bold
 	hi Cursor guibg=Green guifg=Black
 	hi lCursor guibg=Cyan guifg=Black
