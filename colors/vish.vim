@@ -1,7 +1,7 @@
 " Vim color file
 " Name:    vish.vim
 " Author:  Serpent7776
-" Version: 0.6.3
+" Version: 0.6.4
 " based on tshell.vim
 " Main color in Gvim:DarkGolden(#ddaa66),you can change it to your favourite color.
 
@@ -11,6 +11,7 @@ if exists("syntax_on")
 	syntax reset
 endif
 let g:colors_name="vish"
+
 if has('gui_running')
 	hi Normal         gui=NONE   guifg=#e0e0e0   guibg=#090909
 
@@ -52,7 +53,7 @@ if has('gui_running')
 	hi Constant       gui=NONE   guifg=#FA9D9D   guibg=NONE
 	hi Boolean        gui=NONE   guifg=#00ff00   guibg=NONE
 	hi String         gui=NONE   guifg=#F050C8   guibg=NONE
-	hi Error          gui=NONE   guifg=#990000   guibg=#000000
+	hi Error          gui=NONE   guifg=#FFFFFF   guibg=#990000
 	hi Identifier     gui=NONE   guifg=#4cbbd1   guibg=NONE
 	hi Ignore         gui=NONE   guifg=#555555
 	hi Number         gui=NONE   guifg=#ddaa66   guibg=NONE
@@ -93,6 +94,10 @@ if has('gui_running')
 
 	" git-gutter:
 	hi SignColumn     gui=NONE   guifg=#bbbbbb   guibg=#333333
+
+	" ale:
+	hi ALEError       gui=NONE   guifg=#FFFFFF   guibg=#990000
+	hi ALEWarning     gui=NONE   guifg=#FFFFFF   guibg=#000099
 
 	" logcat:
 	hi LogF_color ctermfg=black guifg=#FFFFFF ctermbg=red guibg=#CC0000
@@ -152,9 +157,13 @@ else
 	" Groups for syntax highlighting
 	hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0
 	hi String   ctermfg=Magenta guifg=Magenta
+	hi Error ctermbg=DarkRed
 	hi Special term=bold ctermfg=LightRed guifg=Orange guibg=grey5
 	if &t_Co > 8
 		hi Statement term=bold cterm=bold ctermfg=Yellow guifg=#ffff60 gui=bold
 	endif
 	hi Ignore ctermfg=DarkGrey guifg=grey20
+
+	hi ALEError ctermbg=DarkRed
+	hi ALEWarning ctermbg=DarkBlue
 endif
