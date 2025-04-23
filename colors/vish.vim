@@ -1,7 +1,7 @@
 " Vim color file
 " Name:    vish.vim
 " Author:  Serpent7776
-" Version: 0.6.4
+" Version: 0.6.5
 " based on tshell.vim
 " Main color in Gvim:DarkGolden(#ddaa66),you can change it to your favourite color.
 
@@ -46,6 +46,7 @@ if has('gui_running')
 	hi CursorLineNr   gui=NONE   guifg=#ffff00   guibg=#000000
 	hi NonText        gui=NONE   guifg=#bbbbbb   guibg=NONE
 	hi SpecialKey     gui=NONE   guifg=#7f7f7f   guibg=NONE
+	hi Whitespace     gui=NONE   guifg=#7f7f7f   guibg=NONE
 	hi Title          gui=NONE   guifg=#E1462D   guibg=NONE
 	hi Visual         gui=NONE   guifg=NONE      guibg=#404040
 
@@ -130,6 +131,7 @@ else
 	hi Question term=standout ctermfg=LightGreen gui=bold guifg=Green
 	hi Search term=reverse ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
 	hi SpecialKey term=bold ctermfg=darkgrey guifg=grey
+	hi Whitespace term=bold ctermfg=darkgrey guifg=grey
 	hi Title term=bold ctermfg=LightMagenta gui=bold guifg=Magenta
 	hi WarningMsg term=standout ctermfg=LightRed guifg=Red
 	hi WildMenu term=standout ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
