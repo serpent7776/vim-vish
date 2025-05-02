@@ -109,7 +109,7 @@ if has('gui_running')
 	hi LogV_color ctermfg=gray guifg=#777777
 else
 "use the same color of evening in term
-	hi Normal  term=standout ctermfg=grey guifg=grey75
+	hi Normal  term=standout ctermfg=grey guifg=grey75 ctermbg=black guibg=black
 	hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White guibg=Red guifg=White
 	hi IncSearch term=reverse cterm=reverse guifg=black guibg=orange
 	hi ModeMsg term=bold cterm=bold gui=bold
